@@ -1,0 +1,59 @@
+body {
+    margin-top: 10px;
+    background-color: #eae9e9;
+}
+
+.imgRicette {
+    height: 80%;
+    width: 100%;
+}
+
+.imgIcon {
+    height: 50px;
+    width: 70px;
+    
+}
+.navbar-brand{
+  margin: 0px;
+}
+
+.h2sameheight{
+  height: 50px;
+}
+
+.container-white {
+    background-color: #fff;
+  }
+
+ 
+.customwidth{
+    width: 900px;
+    margin-top: 50px ;
+    margin-bottom: 150px;
+  }
+
+  .btn-light {
+    --bs-btn-bg: #f0f0f0;
+    --bs-btn-border-color: #acbdcd;
+  }
+
+  .nav-item{
+    font-size: 1.5rem;
+  }
+
+
+  .nav-item:hover{
+    text-shadow: 
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+   
+  }
+
+  @media only screen and (max-width: 995px) {
+    .customwidth{
+        width: auto;
+        margin: 20px 10px 80px 10px;
+      }
+
+  }
